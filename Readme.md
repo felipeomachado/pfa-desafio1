@@ -1,0 +1,1 @@
+docker run --name  -e MYQSL_ROOT_PASSWORD=root  -v $(pws)/mysql/database:/var/lib/mysql mysql:5.7
